@@ -1,0 +1,8 @@
+name: fastn-verify
+on:
+  workflow_dispatch:
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "fastn verify ok"
